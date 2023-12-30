@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="bg-[#131313] overflow-x-hidden">
+    <main className="bg-[#131313] overflow-x-hidden relative">
       <NavBar/>
       <Hero/>
       <WhyHayla/>

@@ -10,10 +10,10 @@ const WhyHayla = () => {
     <section className='w-[100%] bg-white px-[10%] pt-28 pb-10 '>
         <div className='flex flex-col sm:flex-row  justify-between items-start' >
             {/* First column */}
-            <div className='flex flex-col w-[35%] gap-y-6'>
-                <p className='text-[4vw] text-[#131313] font-bold font-Syne' >Why is Hayla for you?</p>
+            <div className='flex flex-col sm:w-[35%] w-[70%] gap-y-6'>
+                <p className='text-[7vw] sm:text-[4vw] text-[#131313] font-bold font-Syne' >Why is Hayla for you?</p>
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="283" height="63" viewBox="0 0 283 63" fill="none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="220" height="63" viewBox="0 0 283 63" fill="none">
   <path d="M-86 7.99997C-86 7.99997 176.222 46.0501 255.519 21.5294C354 -12.5 134.281 -3.17709 181.833 61.479" stroke="#D7172A" stroke-width="3" stroke-miterlimit="10"/>
 </svg>
 <div className=' md:h-[5vw] h-[9vw] sm:h-[7vw] hover:cursor-pointer   flex flex-row justify-center gap-x-1  items-center border border-[#D7172A] rounded-[2.5vw]' >
@@ -36,8 +36,8 @@ const WhyHayla = () => {
   <path d="M34 2L26 10" stroke="#131313" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
                 <div className='flex flex-col justify-center items-start gap-y-4'>
-                <p className='text-[#131313] font-Syne text-[4vw] sm:text-[2.2vw] font-semibold' >Instant Value </p>
-                <p className="  text-[#131313] font-Syne font-[400] sm:text-[1.5vw] text-[3.4vw] tracking-[-0.14] opacity-60">No more time wasted on meaningless calls; every second means more dollars in your pocket.</p>
+                <p className='text-[#131313] font-Syne text-[4.8vw] sm:text-[2.2vw] font-semibold' >Instant Value </p>
+                <p className="  text-[#131313] font-Syne font-[400] sm:text-[1.5vw] text-[3.8vw] tracking-[-0.14] opacity-60">No more time wasted on meaningless calls; every second means more dollars in your pocket.</p>
 
                 </div>
                 </div>
@@ -50,8 +50,8 @@ const WhyHayla = () => {
   <path d="M22.3324 9.2902L25.2213 12.179L30.9989 6.40137" stroke="#131313" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
                 <div className='flex flex-col justify-center items-start gap-y-4'>
-                <p className='text-[#131313] font-Syne text-[4vw] sm:text-[2.2vw] font-semibold' >Instant Payment </p>
-                <p className="  text-[#131313] font-Syne font-[400] sm:text-[1.5vw] text-[3.4vw] tracking-[-0.14] opacity-60">Whether you're a seasoned influencer or on the rise to fame, you can make every call count.</p>
+                <p className='text-[#131313] font-Syne text-[4.8vw] sm:text-[2.2vw] font-semibold' >Instant Payment </p>
+                <p className="  text-[#131313] font-Syne font-[400] sm:text-[1.5vw] text-[3.8vw] tracking-[-0.14] opacity-60">Whether you're a seasoned influencer or on the rise to fame, you can make every call count.</p>
 
                 </div>
                 </div>
@@ -66,8 +66,8 @@ const WhyHayla = () => {
   <path d="M13.5 3H22.5" stroke="#131313" stroke-width="2.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
                 <div className='flex flex-col justify-center items-start gap-y-4'>
-                <p className='text-[#131313] font-Syne text-[4vw] sm:text-[2.2vw] font-semibold' >Monetize Your Time </p>
-                <p className="  text-[#131313] font-Syne font-[400] sm:text-[1.5vw] text-[3.4vw] tracking-[-0.14] opacity-60">For influencers, every call is an instant source of income.
+                <p className='text-[#131313] font-Syne text-[4.8vw] sm:text-[2.2vw] font-semibold' >Monetize Your Time </p>
+                <p className="  text-[#131313] font-Syne font-[400] sm:text-[1.5vw] text-[3.8vw] tracking-[-0.14] opacity-60">For influencers, every call is an instant source of income.
 Fans get direct access by making a small investment.</p>
 
                 </div>
@@ -83,8 +83,8 @@ Fans get direct access by making a small investment.</p>
   <path d="M16.8 20C16.8 14.704 21.104 10.4 26.4 10.4C31.696 10.4 36 14.704 36 20C36 25.296 31.696 29.6 26.4 29.6" stroke="#131313" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
                 <div className='flex flex-col justify-center items-start gap-y-4'>
-                <p className='text-[#131313] font-Syne text-[4vw] sm:text-[2.2vw] font-semibold' >Time for Fans </p>
-                <p className="  text-[#131313] font-Syne font-[400] sm:text-[1.5vw] text-[3.4vw] tracking-[-0.14] opacity-60">Micro-consultancy solves this problem of influencers who can’t possibly interact with everyone who wants to talk to them.</p>
+                <p className='text-[#131313] font-Syne text-[4.8vw] sm:text-[2.2vw] font-semibold' >Time for Fans </p>
+                <p className="  text-[#131313] font-Syne font-[400] sm:text-[1.5vw] text-[3.8vw] tracking-[-0.14] opacity-60">Micro-consultancy solves this problem of influencers who can’t possibly interact with everyone who wants to talk to them.</p>
 
                 </div>
                 </div>

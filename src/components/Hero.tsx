@@ -20,18 +20,18 @@ import { PiPhone } from "react-icons/pi";
 
 const Hero = () => {
   return (
-    <section  className="w-[100%] px-[7%] pt-8 pb-32  overflow-x-hidden ">
+    <section  className="w-[100%] px-[5%] pt-8 pb-32  overflow-x-hidden ">
       {/* Hero part */}
 
       <div style={{background: 'linear-gradient(270deg, #990000 9.5%, rgba(19, 19, 19, 0.00) 85.74%)'}} className=" z-0 absolute top-[0%] right-[-30%] sm:w-[60vw] sm:h-[60vw] w-[80vw] h-[80vw] opacity-50 rounded-full backdrop-blur-[300px] overflow-x-hidden" />
 
       <div  className="flex  flex-col-reverse sm:flex-row gap-10 justify-between items-center">
         {/* first column */}
-        <div className="flex flex-col justify-center items-start sm:w-[35%] w-[80%] gap-y-8">
-          <p className="sm:text-[5vw] text-[8vw] text-white font-bold font-Syne ">
-            The call app that values your Time{" "}
+        <div className="flex flex-col justify-center items-start sm:w-[45%] w-[80%] gap-y-8">
+          <p style={{textShadow:"2px 2px 4px  #999999"}} className="sm:text-[5.5vw] text-[9vw] text-white font-bold font-Syne sm:tracking-[-1.32px]  ">
+            The call app that values your Time.{" "}
           </p>
-          <p className="  text-[#E9E9E9] font-Syne font-[400] md:text-[1.5vw] text-[3vw] tracking-[-0.14] opacity-60">
+          <p className="  text-[#E9E9E9] font-Syne font-[400] sm:text-[1.5vw] text-[4vw] tracking-[-0.14] opacity-60">
             VERB: to hail, to call someone in order to attract their attention.
           </p>
           <div className="flex flex-row justify-center items-center gap-x-4    text-white ">
@@ -83,22 +83,22 @@ const Hero = () => {
         {/* Two boxes */}
         <div className="flex sm:flex-row flex-col justify-center items-center gap-[30px] w-[100%] relative">
           {/* first box */}
-          <div className="flex flex-col justify-center items-center w-[90%]  sm:w-[45%] h-[30vw] sm:h-[15vw] bg-white rounded-[30px] pl-10 pr-5">
-            <p className="sm:text-[1.8vw] text-[3.5vw] text-[#131313] font-Syne font-[600]">
+          <div className="flex flex-col justify-center items-center w-[100%]  sm:w-[45%] h-[50vw] sm:h-[15vw] bg-white rounded-[30px] px-[5%]">
+            <p className="sm:text-[1.8vw] text-[4.5vw] text-[#131313] font-Syne font-[600]">
               Connect in Seconds
             </p>
-            <p className="sm:text-[1.4vw] text-[2.8vw] font-Syne opacity-50">
+            <p className="  text-[#131313] font-Syne font-[400] sm:text-[1.5vw] text-[3.8vw] tracking-[-0.14] opacity-60">
               Hayla is a system that changes the way influencers and fans
               interact.
             </p>
           </div>
 
           {/* second box */}
-          <div className="flex flex-col justify-center items-center w-[90%]  sm:w-[45%] h-[30vw] sm:h-[15vw] bg-white rounded-[30px] pl-10 pr-5">
-            <p className="sm:text-[1.8vw] text-[3.5vw] text-[#131313] font-Syne font-[600]">
+          <div className="flex flex-col justify-center items-center w-[100%]  sm:w-[45%] h-[50vw] sm:h-[15vw] bg-white rounded-[30px] px-[5%]">
+            <p className="sm:text-[1.8vw] text-[4.5vw] text-[#131313] font-Syne font-[600]">
               Crystal Clear Voice
             </p>
-            <p className="sm:text-[1.4vw] text-[2.8vw] font-Syne opacity-50">
+            <p className="  text-[#131313] font-Syne font-[400] sm:text-[1.5vw] text-[3.8vw] tracking-[-0.14] opacity-60">
               Also simplifies life for professionals who offer consultation
               services.
             </p>
@@ -114,10 +114,10 @@ const Hero = () => {
 
         <div className="flex sm:flex-row flex-col-reverse justify-between gap-y-6 items-center">
           <div className="flex flex-col sm:w-[40%] w-[90%] gap-y-8">
-            <p className="text-white sm:text-[3vw] font-Syne font-semibold">
+            <p className="text-white sm:text-[3vw] text-[6vw] font-Syne font-semibold">
               For influencers and content createors.
             </p>
-            <p className="  text-[#E9E9E9] font-Syne font-[400] sm:text-[1.5vw] text-[3.4vw] tracking-[-0.14] opacity-60">
+            <p className="  text-[#E9E9E9] font-Syne font-[400] sm:text-[1.5vw] text-[4.4vw] tracking-[-0.14] opacity-60">
               Maximize your time with Hayla answer calls, earn cash. Unknown
               caller? No worries. With each conversation, you're making money.
             </p>
@@ -157,10 +157,10 @@ const Hero = () => {
 
         <div className="flex sm:flex-row-reverse flex-col-reverse justify-between gap-y-6 items-center">
           <div className="flex flex-col sm:w-[40%] w-[90%] gap-y-8">
-            <p className="text-white sm:text-[3vw] font-Syne font-semibold tracking-[-0.88px]">
+          <p className="text-white sm:text-[3vw] text-[6vw] font-Syne font-semibold">
             For Fans
             </p>
-            <p className="  text-[#E9E9E9] font-Syne font-[400] sm:text-[1.5vw] text-[3.4vw] tracking-[-0.14] opacity-60">
+            <p className="  text-[#E9E9E9] font-Syne font-[400] sm:text-[1.5vw] text-[4.4vw] tracking-[-0.14] opacity-60">
             Your dream of sharing a 1-1 interaction meaningful interaction with an icon is now within reach, thanks to Hayla. The influencer receives money for the call so they
 will 100% respond. It's a win-win for both sides.
             </p>
@@ -198,10 +198,10 @@ will 100% respond. It's a win-win for both sides.
 
         <div className="flex sm:flex-row flex-col-reverse justify-between gap-y-6 items-center">
           <div className="flex flex-col sm:w-[40%] w-[90%] gap-y-8">
-            <p className="text-white sm:text-[3vw] font-Syne font-semibold">
+          <p className="text-white sm:text-[3vw] text-[6vw] font-Syne font-semibold">
             For Consult Experts & Professionals:
             </p>
-            <p className="  text-[#E9E9E9] font-Syne font-[400] sm:text-[1.5vw] text-[3.4vw] tracking-[-0.14] opacity-60">
+            <p className="  text-[#E9E9E9] font-Syne font-[400] sm:text-[1.5vw] text-[4.4vw] tracking-[-0.14] opacity-60">
             If concerns linger about clients not fully committing to sessions, rest assured that Hayla clears your concern as Hayla requires cash to be forked over for your time thus making clients more committed to the consultation.
             </p>
           </div>

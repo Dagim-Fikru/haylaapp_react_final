@@ -19,19 +19,29 @@ type Client={
 }
 
 const ClientCard = ({client}:{client:Client}) => {
+  const numofStars=Math.floor(client.stars)
+  const rem=client.stars-numofStars
   
     // const visibility = useContext(VisibilityContext);
   return (
-    <div  className=' client flex flex-col justify-between items-center shadow-md shadow-gray-400 min-w-[100%] h-[60vw] sm:min-w-[33%]  sm:h-[30vw] py-[5%] px-[6%] sm:px-[3%]'>
+    <div   className=' client flex flex-col justify-between items-center border-[1px] shadow-lg  min-w-[100%] h-[60vw] sm:min-w-[33%]  sm:h-[30vw] py-[5%] px-[6%] sm:px-[3%]'>
            <Image  src={client.clientImg} alt="test one" className='md:w-20 md:h-20 w-10 h-10 rounded-full' />
 
            <div className='flex flex-row justify-center items-center' >
-           <IoStar className="text-[#fcba03]" />
-           <IoStar className="text-[#fcba03]" />
-           <IoStar className="text-[#fcba03]" />
-           <IoStar className="text-[#fcba03]" />
-           <IoStar className="text-[#fcba03]" />
+            {
+
+              
+              (new Array(numofStars).fill(0)).map((item)=>{
+                return <IoStar className="text-[#fcba03]" />
+              })
+
+              
+            }
+            {
+              rem!=0 && <ImStarHalf className="text-[#fcba03]" />
+            }
            
+          
            </div>
 
 
